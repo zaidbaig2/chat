@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    height: 100vh;
+    width: 100vw;
+}
+
+#chatArea {
+    background-color: aqua;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding: 20px;
+}
+ 
+ 
+.textBox {
+    background-color: deeppink;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 0 10px;
+}
+
+.textBoxLeft {
+    color: #00205f;
+    border-bottom-left-radius: 0;
+}
+
+  
+#textArea input {
+    background: transparent;
+    border: none;
+    color: white;
+    width: 90%;
+    color: yellow;
+} 
+ #textArea input:focus {
+    outline: none;
+}  
+#textArea input::placeholder {
+    color: darkgreen;
+} 
+ .avatar img {
+    object-fit: contain;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+} 
+
+
+
+ .avatarUser {
+    order: 2;
+}
+
+.firstArea {
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.textBoxRight {
+    color: #006b35;
+    border-bottom-right-radius: 0;
+}
+
+.chatBoxgirl {
+    position: relative;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.chatBoxboy{
+    position: relative;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.name {
+    position: absolute;
+    bottom: -20px;
+    color: #baaed0;
+    font-size: 15px;
+}
+#textArea {
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+    left: 0;
+    background-color: black;
+    color: chartreuse;
+    display: flex;
+    padding: 10px 30px;
+    border-radius: 50px;
+    margin: 0px 0px 0px 200px ;
+    justify-content: space-between;
+}
